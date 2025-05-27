@@ -10,21 +10,21 @@ import { collection, addDoc } from 'firebase/firestore';
 import toast, { Toaster } from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 
-const roles = ['SE', 'DevOps', 'QA', 'BM'];
+const roles = ['SE', 'DevOps', 'QA', 'BA'];
 
 export const taskRoleMap = {
   "Fix Bug": ["SE", "QA"],
-  "Write Test": ["QA", "BM"],
+  "Write Test": ["QA", "BA"],
   "Deploy": ["DevOps"],
   "Code Review": ["SE", "DevOps"],
-  "Update Docs": ["BM", "QA"],
+  "Update Docs": ["BA", "QA"],
   "Build Feature": ["SE"],
   "Design UI": ["SE"],
   "Optimize DB": ["DevOps", "SE"],
-  "Conduct Meeting": ["BM"],
-  "Create Report": ["BM", "QA"],
+  "Conduct Meeting": ["BA"],
+  "Create Report": ["BA", "QA"],
   "Monitor Logs": ["DevOps"],
-  "Plan Sprint": ["BM", "SE"]
+  "Plan Sprint": ["BA", "SE"]
 };
 
 const generateTasks = () => {

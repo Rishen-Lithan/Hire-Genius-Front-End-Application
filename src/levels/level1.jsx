@@ -363,6 +363,7 @@ export default function Level1() {
                       <option value="1-2 years">1-2 Years</option>
                       <option value="2-5 years">2-5 Years</option>
                       <option value="5-10 years">5-10 Years</option>
+                      <option value="5-10 years">10+ Years</option>
                     </select>
                     {errors.experience && <span style={errorMessageStyle}>{errors.experience}</span>}
                   </div>

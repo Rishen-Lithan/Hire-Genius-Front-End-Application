@@ -596,7 +596,7 @@ export default function DevOps() {
     
       <div className="action-buttons">
         <button className="reset-btn" onClick={resetGame}>🔄 Reset Quest</button>
-        <button className="submit-btn" onClick={submitScore}>🚀 Launch & Continue</button>
+        <button className="submit-btn" onClick={submitScore}>🚀 Submit & Continue</button>
       </div>
     
       {showModal && (
