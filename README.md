@@ -10,10 +10,9 @@ Design an innovative HR Interview System through Gamified Assessment
 
 
 ### Main Objective
-Design & implement a system which can create gamified assessment based on candidate’s various factors which will depict as series of games along with clips and chats by replacing traditional interview process.
+Design & implement a system which can create gamified assessment based on candidate’s various factors which will depict as series of games by replacing traditional interview process.
 
 ### Sub Objectives
-- Create a model to prompt questions based on candidate’s various factors.
-- Create gamified environment with gamification elements.
-- Create games, clips & chats to display questions.
-- Create a scoring system to select the best fit candidate.
+- Developed a starting gamification environment.
+- Developed 3 gaming stages for the classification model, HR interview questions section & task prioritization challenge.
+- Developed 3 stages to analyze candidate's project management skills, devOps skills & web application development skills.
